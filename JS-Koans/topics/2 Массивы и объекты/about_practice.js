@@ -34,7 +34,8 @@ describe("About Applying What We Have Learnt (about_applying_what_we_have_learnt
       }
     }
 
-    expect(productsICanEat.length).toBe(FILL_ME_IN);
+    // Pizza without nuts and mushrooms: "Pizza Primavera"
+    expect(productsICanEat.length).toBe(1);
   });
 
   it("should add all the natural numbers below 1000 that are multiples of 3 or 5 (imperative)", function () {
@@ -46,7 +47,8 @@ describe("About Applying What We Have Learnt (about_applying_what_we_have_learnt
       }
     }
 
-    expect(sum).toBe(FILL_ME_IN);
+    // The sum of all multiples of 3 or 5 below 1000 is 233168
+    expect(sum).toBe(233168);
   });
 
   /*********************************************************************************/
@@ -59,6 +61,7 @@ describe("About Applying What We Have Learnt (about_applying_what_we_have_learnt
       }
     }
 
-    expect(ingredientCount['mushrooms']).toBe(FILL_ME_IN);
+    // Mushrooms appear in "Sonoma" and "South Of The Border", so the count is 2
+    expect(ingredientCount['mushrooms']).toBe(2);
   });
 });
